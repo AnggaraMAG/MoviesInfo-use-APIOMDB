@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar, ModalFooter } from "react-bootstrap";
+import { ModalFooter } from "react-bootstrap";
 
 function Info() {
   return (
     <div>
       <ModalFooter>
-        <p>dancokkkkk</p>
+        <p>Developer AnggaraMAG</p>
       </ModalFooter>
     </div>
   );

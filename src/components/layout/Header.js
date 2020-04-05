@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import { Navbar, ModalFooter } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 
 function Header() {
   return (
