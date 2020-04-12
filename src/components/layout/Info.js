@@ -4,8 +4,13 @@ import { ModalFooter } from "react-bootstrap";
 function Info() {
   return (
     <div>
-      <ModalFooter>
-        <p>Developer AnggaraMAG</p>
+      <ModalFooter bg="primary" variant="dark">
+        <p>
+          <b>Developer @AnggaraMAG API</b>{" "}
+          <a target_ href="http://www.omdbapi.com/">
+            OMDBAPI
+          </a>
+        </p>
       </ModalFooter>
     </div>
   );

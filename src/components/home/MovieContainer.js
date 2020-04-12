@@ -7,10 +7,11 @@ class MovieContainer extends Component {
     const { movies } = this.props;
     let content = "";
 
-    content =
-      movies.length > 0
-        ? movies.map((movie, index) => <MovieCard key={index} movie={movie} />)
-        : null;
+    content = movies ? (
+      movies.map((movie, index) => <MovieCard key={index} movie={movie} />)
+    ) : (
+      <>Movie not found....</>
+    );
     return (
       <div
         className="row"

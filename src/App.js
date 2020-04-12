@@ -1,18 +1,22 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./App.css";
 import Header from "./components/layout/Header";
 import Info from "./components/layout/Info";
-// import Search from "./components/home/Search";
 import Landing from "./components/home/Landing";
+import Movie from "./components/home/Movie";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Landing />
-      <Info />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/movie/:id" component={Movie} />
+        <Info />
+      </div>
+    </Router>
   );
 }
 

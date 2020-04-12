@@ -1,4 +1,9 @@
-import { SEARCH_MOVIE, FETCH_MOVIES } from "../config/constants";
+import {
+  SEARCH_MOVIE,
+  FETCH_MOVIES,
+  FETCH_MOVIE,
+  LOADING,
+} from "../config/constants";
 
 const initialState = {
   text: "",
@@ -19,6 +24,18 @@ export default function (state = initialState, action) {
       return {
         ...state,
         movies: action.payload,
+        loading: false,
+      };
+    case FETCH_MOVIE:
+      return {
+        ...state,
+        movie: action.payload,
+        loading: false,
+      };
+    case LOADING:
+      return {
+        ...state,
+        loading: true,
       };
     default:
       return state;
