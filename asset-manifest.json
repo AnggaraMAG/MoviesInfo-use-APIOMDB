@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MoviesInfo-use-APIOMDB/static/css/main.c9d691c3.chunk.css",
+    "main.js": "/MoviesInfo-use-APIOMDB/static/js/main.553bfc73.chunk.js",
+    "main.js.map": "/MoviesInfo-use-APIOMDB/static/js/main.553bfc73.chunk.js.map",
+    "runtime-main.js": "/MoviesInfo-use-APIOMDB/static/js/runtime-main.1e527e5b.js",
+    "runtime-main.js.map": "/MoviesInfo-use-APIOMDB/static/js/runtime-main.1e527e5b.js.map",
+    "static/css/2.de424728.chunk.css": "/MoviesInfo-use-APIOMDB/static/css/2.de424728.chunk.css",
+    "static/js/2.e4f1a893.chunk.js": "/MoviesInfo-use-APIOMDB/static/js/2.e4f1a893.chunk.js",
+    "static/js/2.e4f1a893.chunk.js.map": "/MoviesInfo-use-APIOMDB/static/js/2.e4f1a893.chunk.js.map",
+    "index.html": "/MoviesInfo-use-APIOMDB/index.html",
+    "precache-manifest.4539424af3d6be6599eef0f95744d841.js": "/MoviesInfo-use-APIOMDB/precache-manifest.4539424af3d6be6599eef0f95744d841.js",
+    "service-worker.js": "/MoviesInfo-use-APIOMDB/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/MoviesInfo-use-APIOMDB/static/css/2.de424728.chunk.css.map",
+    "static/css/main.c9d691c3.chunk.css.map": "/MoviesInfo-use-APIOMDB/static/css/main.c9d691c3.chunk.css.map",
+    "static/js/2.e4f1a893.chunk.js.LICENSE.txt": "/MoviesInfo-use-APIOMDB/static/js/2.e4f1a893.chunk.js.LICENSE.txt",
+    "static/media/spinner.gif": "/MoviesInfo-use-APIOMDB/static/media/spinner.c38d59b0.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e527e5b.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.e4f1a893.chunk.js",
+    "static/css/main.c9d691c3.chunk.css",
+    "static/js/main.553bfc73.chunk.js"
+  ]
+}
